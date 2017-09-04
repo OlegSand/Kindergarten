@@ -1,0 +1,54 @@
+@import 'custom-var';// пишем с нижнего подчеркивания, чтобы не конвертировать файл.
+@import 'reset';
+@import 'default-class';
+@import 'layout';
+@import 'fonts';
+
+body{
+	background: #f2f2f2;
+	//position: relative;
+}
+
+.header{
+    .header-nav{
+    	width: 100%;
+    	margin-top: 3%;		
+		position: absolute;
+		top: 10%;
+		right: 0;
+		background: rgba(255, 255, 255, .3);
+		z-index: 99;
+		.logo{
+				display: inline-block;
+				img{
+					height: 48px;
+					width: 48px;
+				}
+			}
+    	.navigate{
+    		    	
+    	}	
+    }
+}
+.main{
+	.content{
+		height: 100%;
+		
+	}
+	.main-welkome{
+		height: 100%;		
+		padding: 100px 0;		
+	}
+	.main-content-kids{
+		background-image: url("../../dist/img/main-kids-bg.jpg");
+	}
+	.courses{
+		.courses-block{
+			height: 100px;
+			
+		}
+		// .courses-block + .courses-block{
+		// 	padding-left: 20px;
+		// }
+	}
+}

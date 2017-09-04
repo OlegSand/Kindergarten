@@ -1,0 +1,21 @@
+//обнуление стилей
+body{
+	margin: 0 -4px;
+	background: #fff;
+	overflow-x: hidden;
+	font: 14px/2'Open Sans', arial, sans-serif;
+	color: gray;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	width: 100%;
+}
