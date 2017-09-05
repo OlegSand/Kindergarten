@@ -6,7 +6,6 @@
 
 body{
 	background: #f2f2f2;
-	//position: relative;
 }
 
 .header{
@@ -41,14 +40,21 @@ body{
 	}
 	.main-content-kids{
 		background-image: url("../../dist/img/main-kids-bg.jpg");
+		.col-lg-3{
+			padding: 10% 0;
+		}
+		.col-lg-9{
+			padding: 10% 6%;
+    		text-align: justify;
+		}
 	}
 	.courses{
-		.courses-block{
-			height: 100px;
-			
+		padding: 10% 0;
+		background-image: url("../../dist/img/courses-all-bg.jpg");
+		background-size: cover;
+		.img-course:hover{
+			transform: rotate(15deg);
+			overflow: hidden;
 		}
-		// .courses-block + .courses-block{
-		// 	padding-left: 20px;
-		// }
-	}
+	}	
 }
