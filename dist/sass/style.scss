@@ -4,12 +4,12 @@
 @import 'layout';
 @import 'fonts';
 
-body{
+body {
 	background: #f2f2f2;
 }
 
-.header{
-    .header-nav{
+.header {
+    .header-nav {
     	width: 100%;
     	margin-top: 3%;		
 		position: absolute;
@@ -17,44 +17,48 @@ body{
 		right: 0;
 		background: rgba(255, 255, 255, .3);
 		z-index: 99;
-		.logo{
-				display: inline-block;
-				img{
-					height: 48px;
-					width: 48px;
-				}
-			}
-    	.navigate{
+		.logo {
+			display: inline-block;
+			img {
+				height: 48px;
+				width: 48px;
+			}	
+		}
+    	.navigate {
     		    	
     	}	
     }
 }
-.main{
-	.content{
-		height: 100%;
-		
+.main {
+	.content {
+		height: 100%;		
 	}
-	.main-welkome{
+	.main-welkome {
 		height: 100%;		
 		padding: 100px 0;		
 	}
-	.main-content-kids{
+	.main-content-kids {
 		background-image: url("../../dist/img/main-kids-bg.jpg");
-		.col-lg-3{
+		.col-lg-3 {
 			padding: 10% 0;
 		}
-		.col-lg-9{
+		.col-lg-9 {
 			padding: 10% 6%;
     		text-align: justify;
 		}
 	}
-	.courses{
+	.courses {
 		padding: 10% 0;
 		background-image: url("../../dist/img/courses-all-bg.jpg");
 		background-size: cover;
-		.img-course:hover{
-			transform: rotate(15deg);
+		
+		.img-course {
 			overflow: hidden;
-		}
+			img:hover {
+			transition: all 1s ease-out;		
+			transform: scale(1.1) rotate(5deg);
+			cursor: pointer;
+			}
+		}				
 	}	
 }
