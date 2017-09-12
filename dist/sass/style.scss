@@ -47,18 +47,44 @@ body {
     		text-align: justify;
 		}
 	}
+	// Courses START
 	.courses {
 		padding: 10% 0;
 		background-image: url("../../dist/img/courses-all-bg.jpg");
-		background-size: cover;
-		
-		.img-course {
-			overflow: hidden;
-			img:hover {
-			transition: all 1s ease-out;		
-			transform: scale(1.1) rotate(5deg);
-			cursor: pointer;
+		background-size: cover; 
+		.img-course {			
+			overflow: hidden;			
+			p {
+				display: none;
+				text-align: center;
+				color: #000;
+				font-weight: 800;
+				z-index: 99;
 			}
+			img:hover {				
+				transition: all 1s ease-out;		
+				transform: scale(1.1) rotate(5deg);
+				cursor: pointer;
+				p {
+					display: block;
+					background: rgba(0,0,0,0.5);
+					cursor: pointer;
+				}
+			}						
+		}
+		.course-description span{
+			display: block;
+			margin: 8% 0;
+			cursor: pointer;
+		}
+		.courses-tag:hover .course-description span{
+			color: cyan;
 		}				
 	}	
+}
+// Courses END
+//Teachers profile START
+
+.teach-profile>*{
+	display: block;
 }
