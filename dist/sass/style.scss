@@ -82,6 +82,12 @@ body {
 	.teach-profile>*{
 		display: block;
 		padding-top: 10%;
+		.profile-ic li a {
+			color: gray;
+			&:hover {
+				color: $violet;
+			}
+		}
 	}
 	.all-profiles {
 		padding: 8% 0;
