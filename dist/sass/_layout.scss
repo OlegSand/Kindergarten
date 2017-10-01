@@ -1,1 +1,12 @@
 /*глобальные блоки,хедер,футер и т.д.*/
+body {
+	background: #fff;
+	font: 16px/24px 'Sniglet', sans-serif;
+	color: gray;
+}
+h3 {
+	color: $lightgray;
+}
+li {
+	color: #fff;
+}

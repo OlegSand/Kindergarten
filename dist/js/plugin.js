@@ -6,3 +6,10 @@ function foo(string) {
  return newStr;
 }
 
+(function ($) {
+	$('.btn').click(function(){
+		$('form').toggle('slow', function(){
+			
+		});
+	});
+})(jQuery);

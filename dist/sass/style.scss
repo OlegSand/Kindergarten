@@ -16,14 +16,7 @@ body {
 		top: 10%;
 		right: 0;
 		background: rgba(255, 255, 255, .3);
-		z-index: 99;
-		.logo {
-			display: inline-block;
-			img {
-				height: 48px;
-				width: 48px;
-			}	
-		}
+		z-index: 99;		
     	.navigate {
     		    	
     	}	
@@ -84,7 +77,59 @@ body {
 }
 // Courses END
 //Teachers profile START
-
-.teach-profile>*{
-	display: block;
+.teachers{
+	padding: 6% 0;	
+	.teach-profile>*{
+		display: block;
+		padding-top: 10%;
+	}
+	.all-profiles {
+		padding: 8% 0;
+	}		
 }
+// MAIN END
+// FOOTER START
+.footer {
+	width: 100%;
+	text-align: left;
+	color: #fff;
+	background: $violet;
+	font-family: 'Sniglet' 400;
+	.foot-box {
+		padding: 4% 0;		
+		.dabl-menu {
+			li {
+				margin-top: 24px;
+				font-size: 24px;
+				i {
+					transition: 0.1s linear 0.3s;	
+				}
+				a {
+					transition: 0.3s linear 0.2s;
+				}							
+				&:hover {
+					i {
+						opacity: 1;
+						display: block;
+					}
+					a {
+						margin-left: 12px;
+					}
+
+				}
+			}
+			li i:hover {
+				opacity: 1;
+				display: block;
+			}
+		}
+		address {
+			padding: 20px 0;
+		}
+	}
+}
+
+
+
+
+

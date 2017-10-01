@@ -3,8 +3,33 @@
 .center-block{
 	text-align: center;
 }
+.logo {
+	display: inline-block;
+	img {
+		height: 48px;
+		width: 48px;
+	}	
+}
 
 .hi{
-	font-size: 40px;
-	color: violet;
+	font-size: 44px;
+	color: $violet;
+}
+.person-name {
+	font-size: 26px;
+	color: $violet;
+}
+.person-position {
+	font-size: 20px;
+}
+
+.btn:hover::after{
+	color: #fff;
+	background: #000;
+}
+.fa-angle-right {
+	position: absolute;
+	opacity: 0;
+	color: #fff;
+	z-index: 2;
 }
